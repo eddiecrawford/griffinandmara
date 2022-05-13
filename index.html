@@ -16,7 +16,7 @@
     </style>
 </style>
 </head>
-<body style="background-color: #000000;" onclick="playIt()">
+<body style="background-color: #000000;" onclick="playIt2()">
 
     <h1> Griffin and Mara! </h1>
     <p> Congrats! We are so excited about your future, as your love for each other is so inspiring. </p>
@@ -36,6 +36,14 @@
 </html>
 
 <script>
+    function playIt2() {
+        var audio = new Audio('assets/celebrate.mp3');
+        audio.play();
+    }
+
+
+
+
   function playIt() {
     document.getElementById("my_audio").play();
 }
